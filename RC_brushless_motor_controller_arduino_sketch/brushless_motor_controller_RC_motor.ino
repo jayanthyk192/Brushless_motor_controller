@@ -18,7 +18,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
  */
 
-/* Make sure you power all the ciruits with an SMPS which shuts down when there is
+/* Circuit to run the RC Brushless motor can be found in schematics. It's the same 
+ * as the Hard drive motor circuit. But the code is significantly changed. 
+ *
+ * Make sure you power all the ciruits with an SMPS which shuts down when there is
  * a current surge. DO-NOT run this with a LiPo battery. If there are shot-circuits, 
  * you'll end up with a lot of damage.
  * 
@@ -26,7 +29,6 @@ SOFTWARE.
  * 
  * DO-NOT run the motor without the big capacitor shown in the schematic, 
  * you'll kill the mosfets very soon!
- * 
  */
 
 //Set the Pins on the Arduino that control the N-Mosfets
