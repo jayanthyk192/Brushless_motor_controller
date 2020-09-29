@@ -59,7 +59,7 @@ SOFTWARE.
 #define Ph_B  1
 #define Ph_C  2
 
-int disableMosfets = 1; // Set this to 1 to disable all the mosfets
+int disableMosfets = 0; // Set this to 1 to disable all the mosfets
 
 void setup() {
   //These pins are used to control the NMOS transistors
